@@ -10,3 +10,17 @@ console.log(reverseString("hello"))
 
 // Problem 7: Count Vowels in a String 
 
+function countVowels(str) {
+    const vowels = "aieouAIEOU"
+    let count = 0
+
+    for (let vowel of str) {
+        if (vowels.includes(vowel)) {
+            count++
+        }
+    }
+
+    return count
+}
+
+console.log(countVowels("programming"))
