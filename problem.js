@@ -37,3 +37,16 @@ function palindrome(str) {
 
 console.log(palindrome("racecar"));
 console.log(palindrome("hello"));
+
+
+// Problem 9: Capitalize First Letter of Each Word 
+
+function capitalizeLetters(str) {
+  return str
+    .split(' ')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+}
+
+
+console.log(capitalizeLetters("hello world"));
