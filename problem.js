@@ -50,3 +50,14 @@ function capitalizeLetters(str) {
 
 
 console.log(capitalizeLetters("hello world"));
+
+
+// Count Occurrences of a Character
+
+const str = 'banana';
+const char = 'a';
+
+const parts = str.split(char);
+console.log(parts);
+
+console.log(countChar('banana', 'a'));
